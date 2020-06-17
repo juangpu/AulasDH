@@ -31,8 +31,6 @@ switch(mes){
 // --------------------------------------------------------------------------------------------------
 // Exercício: Eu tenho classes PLAYGROUND
 
-let day = "sexta";
-
 function fimDeSemana(day){
 
 	switch(day){
@@ -50,5 +48,7 @@ function fimDeSemana(day){
 	}
 
 }
+
+let day = "sabado";
 
 fimDeSemana(day)
