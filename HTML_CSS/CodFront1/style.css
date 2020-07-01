@@ -1,0 +1,23 @@
+* {
+    background-color: wheat;
+}
+
+p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+ul {
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
