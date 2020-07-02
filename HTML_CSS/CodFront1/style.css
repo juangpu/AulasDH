@@ -1,6 +1,11 @@
 * {
-    background-color: wheat;
+    background-color: #ccc;
 }
+
+/* body {
+    background-image: url('/HTML_CSS/CodFront1/img/ImgfundoDH.jpeg');
+    background-size: cover;
+} */
 
 p {
   font-size: 15px;
@@ -12,12 +17,34 @@ ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-}
+    color: rgb(114, 97, 97);
+} */
 
 h1 {
     text-transform: uppercase;
     text-align: center;
+}
+
+hr {
+    display: block;
+    unicode-bidi: embed;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: groove;
+    border-width: 1px;
+}
+
+.negrito {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+    text-decoration: underline;
 }
