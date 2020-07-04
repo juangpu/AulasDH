@@ -48,3 +48,10 @@ hr {
     text-align: left;
     text-decoration: underline;
 }
+
+.botao {
+    background-color: gray;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
