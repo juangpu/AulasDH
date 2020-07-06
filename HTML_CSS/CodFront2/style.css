@@ -1,0 +1,21 @@
+.fundo {
+    background-image: url('../CodFront1/img/ImgfundoDH.jpeg');
+    background-repeat: repeat-y;
+}
+
+.inscricao {
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}
+
+/* PSEUDO-SELETORES CSS */
+input:hover {
+    background-color: tomato;
+}
+
+.tamanho:focus {
+    width: 250px;
+}

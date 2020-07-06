@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fundo">
+    <h1 class="inscricao">Inscreva-se</h1>
+
+    <form class="formulario"> 
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <br><br>
+
+        <label for="email"> Email: </label>
+        <input class="tamanho" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+        <br><br>
+
+        <label for="senha"> Senha: </label>
+        <input type="password" id="senha" name="senha" placeholder="Senha" required>
+
+        <br><br>
+
+        <label for="telefone"> Contato: </label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+
+        <br><br>
+
+        <label> Genero: </label>
+        <br>
+        <input type="radio" id="Masculino" name="genero" value="Masculino"><label for="Masculino"> Masculino </label>
+        <input type="radio" id="Feminino" name="genero" value="Feminino"><label for="Feminino"> Feminino </label>
+        <input type="radio" id="Indefinido" name="genero" value="Indefinido"><label for="Indefinido"> Indefinido </label>
+
+        <br><br>
+
+        <label for="pais"> País </label>
+        <select name="pais" id="pais">
+            <option selected disabled> Selecione </option>
+            <option value="BR"> Brasil </option>
+            <option value="AR"> Argentina </option>
+            <option value="UY"> Uruguai </option>
+            <option value="CH"> Chile </option>
+            <option value="CO"> Colombia </option>
+            <option value="PE"> Peru </option>
+            <option value="EQ"> Equador </option>
+            <option value="VZ"> Venezuela </option>
+            <option value="PA"> Paraguai </option>
+        </select>
+
+        <br><br>
+
+        <!-- <label>Selecione o mês do seu aniversário</label>
+        <select name="mes" id="mes">
+            <option value="1"> Janeiro </option>
+            <option value="2"> Fevereiro </option>
+            <option value="3"> Março </option>
+            <option value="4"> Abril </option>
+            <option value="5"> Maio </option>
+            <option value="6"> Junho </option>
+            <option value="7"> Julho </option>
+            <option value="8"> Agosto </option>
+            <option value="9"> Setembro </option>
+            <option value="10"> Outubro </option>
+            <option value="11"> Novembro </option>
+            <option value="12"> Dezembro </option>
+        </select>
+
+        <br><br> -->
+
+        <label for="mensagem"> Escreva o que você espera do curso: </label>
+        <br><br>
+        <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
+
+        <br><br>
+
+        <label for="termos de segurança"> <input type="checkbox" name="termos de segurança" id="termos de segurança" value="termos de segurança" checked required> 
+        <label for="termos de segurança"> Li e concordo com os <a target="_blank" href="https://www.digitalhouse.com/br/termos-e-condicoes">termos de segurança</a> </label>
+        </label>
+
+        <br><br>
+
+        <button type="submit"> Enviar </button>
+
+    </form>
+</body>
+</html>

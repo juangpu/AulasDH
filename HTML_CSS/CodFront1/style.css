@@ -1,5 +1,5 @@
 * {
-    background-color: #ccc;
+    background-color: white;
 }
 
 /* body {
@@ -52,6 +52,6 @@ hr {
 .botao {
     background-color: gray;
     font-weight: bold;
-    color: blue;
+    color: black;
     text-decoration: underline;
 }
