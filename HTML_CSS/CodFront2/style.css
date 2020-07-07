@@ -19,3 +19,27 @@ input:hover {
 .tamanho:focus {
     width: 250px;
 }
+
+.linksMenu {
+    text-align: right;
+}
+
+nav > .menu {
+    display: inline-block;
+  }
+  
+  nav > .menu > li {
+    display: inline-block;
+  }
+  
+  nav .menu li a {
+    font-size: 18px;
+    color: rgb(201, 29, 29);
+    padding: 10px 20px;
+    margin-right: 5px;
+  }
+  
+  /* QUANDO PASSAR O MOUSE EM CIMA APARECE A BORDA BRANCA */
+  nav .menu li a:hover {
+    box-shadow: inset 0 0 0 2px rgb(129, 48, 48);
+  }
