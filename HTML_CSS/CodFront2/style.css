@@ -43,3 +43,11 @@ nav > .menu {
   nav .menu li a:hover {
     box-shadow: inset 0 0 0 2px rgb(129, 48, 48);
   }
+
+.divMenu {
+  border: 3px solid gray;
+  /* espaçamento interno: */
+  padding: 8px; 
+  /* espaçamento externo: */
+  margin: 8px;
+}
