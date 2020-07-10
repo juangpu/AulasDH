@@ -50,4 +50,8 @@ nav > .menu {
   padding: 8px; 
   /* espaçamento externo: */
   margin: 8px;
+  width: 60%;
+  height: 40px;
+  position: relative;
+  left: 510px;
 }
