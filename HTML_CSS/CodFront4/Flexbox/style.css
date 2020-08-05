@@ -1,0 +1,10 @@
+.container-pai {
+    display: flex;
+}
+
+.rodape {
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+
