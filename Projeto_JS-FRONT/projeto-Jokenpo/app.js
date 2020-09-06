@@ -26,9 +26,11 @@ function vaiGanharVaiPerder() {
 
     if (resultadoUsuario == 20){
         swal ("Parabens!!!" , "Você venceu o jogo!" , "success");
+        return vaiGanharVaiPerder = resultadoUsuario == 0 &&  resultadoComputador == 0;
     } 
     if (resultadoComputador == 20){
         swal ("Infelizmente o jogo acabou!" , "Você perdeu o jogo!" , "error");
+        return vaiGanharVaiPerder = resultadoComputador == 0 &&  resultadoUsuario == 0;
     }
 
 //     switch(resultadoUsuario) {
