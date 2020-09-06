@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    border: 1px black solid;
+    width: 20vw;
+}
+
+.left > .menu {
+    margin: 35px;
+    margin-top: 50px;
+    position: fixed;
+}
+
+/*if(.menu está dentro de .left && ul está dentro de .menu)*/
+.left > .menu > ul {
+    list-style: none;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+.main {
+    border: 1px black solid;
+    width: 60vw;
+}
+
+.main > .post {
+    margin: 35px;
+    margin-top: 50px;
+}
+
+.main > .post > .header {
+    overflow: hidden;
+}
+
+.main > .post > .header > .title {
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.main > .post > .header > .date {
+    float: right;
+    color: grey;
+}
+
+
+.right {
+    border: 1px black solid;
+    width: 20vw;
+}
+
+.right > .ads .ad-tower {
+    width: 20%;
+    height: 240px;
+    float: left;
+    background-color: aqua;
+}
+
+.right > .ads > .ad-line {
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+ /*Media query válidas apenas para tables*/
+@media (min-width: 620px) and (max-width: 800px) {
+    .main > .post > .header > .title {
+        font-size: 2em;
+    }
+
+    ul {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+    }
+}
+
+/*Media query válidas apenas para celulares*/
+@media (max-width: 576px) {
+    .right {
+        display: none;
+    }
+
+    .main {
+        width: 80vw;
+    }
+
+    .left > .menu {
+        margin: 3px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+    }
+
+    ul > li {
+        text-align: center;
+    }
+
+    ul > li > a {
+        font-size: 1em;
+    }
+
+    .main > .post > .header > .title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 361px) {
+    .main > .post > .header > .title {
+        font-size: 1em;
+    }
+}
