@@ -23,6 +23,24 @@ function vaiGanharVaiPerder() {
         scores_p.style.color = "#ffffff"
         scores_p.style.borderColor = "#ffffff";
     }    
+
+    if (resultadoUsuario == 20){
+        swal ("Parabens!!!" , "Você venceu o jogo!" , "success");
+    } 
+    if (resultadoComputador == 20){
+        swal ("Infelizmente o jogo acabou!" , "Você perdeu o jogo!" , "error");
+    }
+
+//     switch(resultadoUsuario) {
+//         case 20:
+//             return alert("Você ganhou");
+//             break;
+//     }
+//     switch(resultadoComputador) {
+//         case 20:
+//             return alert("Você perdeu");
+//             break;
+//     }
 }
 
 
