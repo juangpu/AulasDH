@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+.pesquisar {
+    text-align: center;
+}
