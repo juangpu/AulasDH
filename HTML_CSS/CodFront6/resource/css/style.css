@@ -2,14 +2,30 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-}
-
-nav {
-    display: flex;
-}
-
 .pesquisar {
+    padding: 2px;
+}
+
+.instagram {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.direct {
     text-align: center;
+}
+
+.escopo {
+    display: flex;
+}
+
+.solicitacoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_direct {
+    width: 250px;
 }
